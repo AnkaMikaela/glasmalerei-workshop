@@ -380,6 +380,29 @@ h2 {
   box-shadow: 0 16px 42px rgba(23,36,47,0.07);
 }
 
+.legal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.legal-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  padding: 28px;
+  border-radius: 28px;
+}
+
+.legal-card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.legal-card p {
+  color: rgba(255,255,255,0.76);
+  line-height: 1.7;
+}
+
 .time {
   color: var(--gold);
   font-weight: 800;
@@ -729,7 +752,8 @@ textarea {
 
   .cards,
   .materials,
-  .gallery {
+  .gallery,
+  .legal-grid {
     grid-template-columns: 1fr 1fr;
   }
 
