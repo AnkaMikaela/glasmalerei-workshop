@@ -976,7 +976,14 @@ textarea {
   }
 
   .topbar .btn {
-    display: none;
+     display: inline-flex;
+  width: auto;
+  padding: 9px 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 999;
+  pointer-events: auto;
   }
 
   .hero {
@@ -1147,7 +1154,7 @@ textarea {
 .footer a:hover {
   color: var(--gold-soft);
 }
-
+}
 @media (max-width: 900px) {
   .legal-page-grid {
     grid-template-columns: 1fr;
